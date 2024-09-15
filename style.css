@@ -61,7 +61,7 @@ body {
     display: block;
     width: 19px;
     height: 19px;
-    background-image: url("/img/phone.png");
+    background-image: url("img/phone.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -83,7 +83,7 @@ body {
     display: block;
     width: 19px;
     height: 19px;
-    background-image: url("/img/mail.png");
+    background-image: url("img/mail.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -395,7 +395,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 24px;
     height: 24px;
-    background: url('/img/search-menu.png') center center/cover no-repeat;
+    background: url('img/search-menu.png') center center/cover no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -520,7 +520,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 19px;
     height: 19px;
-    background-image: url("/img/phone.png");
+    background-image: url("img/phone.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -529,7 +529,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 }
 
 .toolbar__mail:before {
-    background-image: url("/img/mail.png");
+    background-image: url("img/mail.png");
 }
 
 .toolbar__search-form {
@@ -605,7 +605,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     background-color: transparent !important;
     -webkit-mask-image: none !important;
     mask-image: none !important;
-    background-image: url("/img/search.png");
+    background-image: url("img/search.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -828,7 +828,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 14px;
     height: 14px;
-    background-image: url("/img/phone-mob.png");
+    background-image: url("img/phone-mob.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -838,7 +838,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 }
 
 .m-header__mail:before {
-    background-image: url("/img/mail-mob.png");
+    background-image: url("img/mail-mob.png");
 }
 
 .m-header-button {
@@ -953,11 +953,11 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 }
 
 .m-header__whatsapp {
-    background: url('/img/whatsapp-mob.png') center center/cover no-repeat;
+    background: url('img/whatsapp-mob.png') center center/cover no-repeat;
 }
 
 .m-header__telegram {
-    background: url('/img/telegram-mob.png') center center/cover no-repeat;
+    background: url('img/telegram-mob.png') center center/cover no-repeat;
 }
 
 .mobile-toolbar .company-header__menu {
@@ -1299,7 +1299,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     width: 18px;
     height: 21px;
     background-color: transparent;
-    background-image: url("/img/step_arrow.png");
+    background-image: url("img/step_arrow.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -1315,7 +1315,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 .steps__item:nth-of-type(4) .steps__title:after {
     width: 22px;
     height: 20px;
-    background-image: url("/img/step_star.png");
+    background-image: url("img/step_star.png");
     bottom: 15px;
 }
 
@@ -1481,7 +1481,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
         width: 21px;
         height: 18px;
         background-color: transparent;
-        background-image: url("/img/step_arrow2.png");
+        background-image: url("img/step_arrow2.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto;
@@ -1491,7 +1491,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     }
 
     .steps__item:nth-of-type(4):after {
-        background-image: url("/img/step_star.png");
+        background-image: url("img/step_star.png");
     }
 
     .steps__title {
@@ -1525,7 +1525,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 381px;
     height: 354px;
-    background-image: url("/img/stage-img.png");
+    background-image: url("img/stage-img.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -1554,7 +1554,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 40px;
     height: 40px;
-    background-image: url("/img/stage-title-img.png");
+    background-image: url("img/stage-title-img.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -1580,7 +1580,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     flex-wrap: nowrap;
     padding-top: 40px;
     box-sizing: border-box;
-    background-image: url("/img/stage-arrows.png");
+    background-image: url("img/stage-arrows.png");
     background-repeat: no-repeat;
     background-position: left 10px top;
     background-size: auto;
@@ -1589,7 +1589,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 .stage__item:nth-of-type(1) {
     margin-top: 24px;
     padding-top: 76px;
-    background-image: url("/img/stage-arrows2.png");
+    background-image: url("img/stage-arrows2.png");
 }
 
 .stage__item:nth-of-type(3),
@@ -1609,7 +1609,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     width: 3000px;
     height: 3px;
     background-color: transparent;
-    background-image: url("/img/stage-line.png");
+    background-image: url("img/stage-line.png");
     background-repeat: repeat;
     background-position: left;
     background-size: auto;
@@ -1626,7 +1626,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     width: 3000px;
     height: 3px;
     background-color: transparent;
-    background-image: url("/img/stage-line.png");
+    background-image: url("img/stage-line.png");
     background-repeat: repeat;
     background-position: center;
     background-size: auto;
@@ -1643,7 +1643,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     width: 3000px;
     height: 3px;
     background-color: transparent;
-    background-image: url("/img/stage-line.png");
+    background-image: url("img/stage-line.png");
     background-repeat: repeat;
     background-position: center;
     background-size: auto;
@@ -1823,7 +1823,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
         width: 3000px;
         height: 3px;
         background-color: transparent;
-        background-image: url("/img/stage-line.png");
+        background-image: url("img/stage-line.png");
         background-repeat: repeat;
         background-position: center;
         background-size: auto;
@@ -1865,7 +1865,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
         width: 3000px;
         height: 3px;
         background-color: transparent;
-        background-image: url("/img/stage-line.png");
+        background-image: url("img/stage-line.png");
         background-repeat: repeat;
         background-position: center;
         background-size: auto;
@@ -1926,7 +1926,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     max-width: 94px;
     width: 100%;
     height: 19px;
-    background-image: url("/img/step3-arrow.png");
+    background-image: url("img/step3-arrow.png");
     background-repeat: no-repeat;
     background-position: right 5px center;
     position: absolute;
@@ -1952,7 +1952,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 17px;
     height: 40px;
-    background-image: url("/img/step3-arrow2.png");
+    background-image: url("img/step3-arrow2.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -2218,7 +2218,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 63px;
     height: 65px;
-    background-image: url("/img/step1-arrow-up.png");
+    background-image: url("img/step1-arrow-up.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -2237,7 +2237,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 75px;
     height: 82px;
-    background-image: url("/img/step1-arrow-down.png");
+    background-image: url("img/step1-arrow-down.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -2449,7 +2449,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     background-color: transparent;
     box-sizing: border-box;
     padding: 50px 10px;
-    background-image: url("/img/about-background.png");
+    background-image: url("img/about-background.png");
     background-repeat: no-repeat;
     background-position: top -168px center;
     background-size: auto;
@@ -2486,7 +2486,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url("/img/about-background.png");
+    background-image: url("img/about-background.png");
     background-repeat: no-repeat;
     background-position: top -268px center;
     background-size: auto;
@@ -2830,7 +2830,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     content: "";
     width: 40px;
     height: 40px;
-    background-image: url("/img/slide-arrow.png");
+    background-image: url("img/slide-arrow.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -2962,7 +2962,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     height: 40px;
     border-radius: 4px;
     background-color: #CB082E;
-    background-image: url("/img/slider-zoom.png");
+    background-image: url("img/slider-zoom.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -3093,17 +3093,17 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 }
 
 .pop-up__button_prev {
-    background-image: url('/img/popup_prev.png');
+    background-image: url('img/popup_prev.png');
     left: 1em;
 }
 
 .pop-up__button_next {
-    background-image: url('/img/popup_next.png');
+    background-image: url('img/popup_next.png');
     right: 1em;
 }
 
 .pop-up__button_close {
-    background-image: url('/img/popup_x.png');
+    background-image: url('img/popup_x.png');
     position: absolute;
     top: -20px;
     right: -20px;
@@ -3424,7 +3424,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 .delivery__transport .delivery__text::after {
     width: 18px;
     height: 18px;
-    background-image: url("/img/transport-list.png");
+    background-image: url("img/transport-list.png");
     top: 6px;
 }
 
@@ -3796,7 +3796,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     width: 100%;
     padding: 100px 10px;
     box-sizing: border-box;
-    background-image: url("/img/auto-bg.png");
+    background-image: url("img/auto-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3857,7 +3857,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     background-position: center;
     background-size: cover;
     position: absolute;
-    background-image: url("/img/courier-list.png");
+    background-image: url("img/courier-list.png");
     top: 3px;
     left: 0;
 }
@@ -4081,7 +4081,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     height: 40px;
     background-color: #e70000;
     border-radius: 50%;
-    background-image: url("/img/photos-zoom.png");
+    background-image: url("img/photos-zoom.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -4151,7 +4151,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     width: 40px;
     height: 40px;
     border-radius: 0;
-    background-image: url("/img/photos-arrow.png");
+    background-image: url("img/photos-arrow.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -4183,7 +4183,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 
 .photos-wrapper .slider__btn-prev:hover:before,
 .photos-wrapper .slider__btn-next:hover:before {
-    background-image: url("/img/photos-arrow_hover.png");
+    background-image: url("img/photos-arrow_hover.png");
 }
 
 .photos-wrapper .swiper-button-disabled:before,
@@ -4475,7 +4475,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 16px;
     height: 10px;
-    background-image: url("/img/shops-arrow.png");
+    background-image: url("img/shops-arrow.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -4488,7 +4488,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 16px;
     height: 10px;
-    background-image: url("/img/shops-arrow.png");
+    background-image: url("img/shops-arrow.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -4603,7 +4603,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     display: block;
     width: 14px;
     height: 17px;
-    background-image: url("/img/shops-address.png");
+    background-image: url("img/shops-address.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -4614,14 +4614,14 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
 .about-map__phone:before {
     width: 13px;
     height: 13px;
-    background-image: url("/img/shops-phone.png");
+    background-image: url("img/shops-phone.png");
     top: 1px;
 }
 
 .about-map__time:before {
     width: 13px;
     height: 14px;
-    background-image: url("/img/shops-time.png");
+    background-image: url("img/shops-time.png");
     top: 2px;
 }
 
@@ -4783,7 +4783,7 @@ div.horisontal-menu-cover li.js-menu-item.active:hover > a {
     width: 69px;
     height: 50px;
     box-sizing: border-box;
-    background: url('/img/youtube-play-btn.png') 0 -50px / 100% auto  no-repeat;
+    background: url('img/youtube-play-btn.png') 0 -50px / 100% auto  no-repeat;
     position: absolute;
     top: 0;
     left: 0;
