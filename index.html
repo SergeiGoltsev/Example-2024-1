@@ -1,0 +1,2002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Manrope&family=Inter:wght@400;600;700&family=Roboto:wght@400;500;700&family=Montserrat:wght@400;900&display=swap"
+      rel="stylesheet">
+<script src="//stpulscen.ru/assets/custom_assets/swiper.min.js"></script>
+
+<div class="header">
+    <a class="header__logo-link" href="/" title="На главную">
+        <img class="header__logo" alt=""
+             src="/img/logo.png">
+    </a>
+    <div class="header__phone-block">
+        <a href="tel:+79201234567"
+           class="header__phone" data-company-id="">+7 (920) 123-45-67</a>
+        <a href="tel:+79201234568"
+           class="header__phone" data-company-id="">+7 (920) 123-45-68</a>
+    </div>
+
+    <a href="mailto:mail111@gmail.com"
+       class="header__mail">mail111@gmail.com</a>
+
+    <div class="social-wrapper">
+        <div class="social" data-phone="79201234567"
+             data-text="Здравствуйте! Нашли ваше предложение на сайте " data-url="true"
+             onclick="whatsapp(this);"
+             title="WhatsApp">
+            <img src="/img/whatsapp.png">
+        </div>
+
+        <div onclick='window.open("https://t.me/","_blank")' class="social">
+            <img src="/img/telegram.png">
+        </div>
+    </div>
+
+    <div class="buttons">
+        <div class="button button__callback" data-type="callback">
+            Заказать звонок
+        </div>
+        <div class="button button__message" data-type="message">
+            Оставить заявку
+        </div>
+    </div>
+</div>
+<div class="horisontal-menu-cover">
+    <div class="menu-bg-ie">
+        <ul class="horizontal-menu">
+            <li class="js-menu-item active">
+                <a href="/">Главная</a>
+            </li>
+
+            <li class="js-menu-item">
+                <a href="/about">О&nbsp;компании</a>
+            </li>
+
+            <li class="js-menu-item">
+                <a href="/catalog">Каталог</a>
+            </li>
+
+
+            <li class="js-menu-item">
+                <a href="/delivery">Доставка и&nbsp;оплата</a>
+            </li>
+
+            <li class="js-menu-item">
+                <a href="/contacts">Контакты</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="toolbar">
+    <div class="toolbar-container">
+        <a class="toolbar__logo" href="/">
+            <img class="toolbar__logo-img" src="/img/logo.png">
+        </a>
+        <div class="toolbar__nav">
+            <a class="toolbar__link" href="/about">О&nbsp;компании</a>
+            <a class="toolbar__link" href="/catalog">Каталог</a>
+            <a class="toolbar__link" href="/contacts">Контакты</a>
+        </div>
+        <form class="toolbar__search-form search-form"
+              accept-charset="UTF-8" accept-encoding="UTF-8" action="/catalog"
+              method="get"
+              onsubmit="formSubmitter.disableButtons(this, null, null);">
+            <div style="margin:0;padding:0;display:none"><input name="utf8" type="hidden" value="✓"/></div>
+
+            <div class="toolbar-input-cnt sf-input-wrapper toolbar__input-wrapper">
+                <input class="toolbar__inp" id="q"
+                       maxlenght="255" name="q"
+                       placeholder="Поиск по сайту" type="text"/>
+            </div>
+            <button class="toolbar__search-btn" name="commit" type="submit"
+                    value="Поиск"></button>
+        </form>
+
+        <div class="toolbar__contacts">
+            <a href="mailto:mail111@gmail.com" target=”_blank”
+               class="toolbar__contact toolbar__mail"
+               data-company-id="">mail111@gmail.com</a>
+            <a href="tel:+79201234567"
+               class="toolbar__contact toolbar__phone"
+               data-company-id="">+7 (920) 123-45-67</a>
+        </div>
+
+        <div class="social-wrapper">
+            <div class="social" data-phone="79201234567"
+                 data-text="Здравствуйте! Нашли ваше предложение на сайте " data-url="true"
+                 onclick="whatsapp(this);"
+                 title="WhatsApp">
+                <img src="/img/whatsapp.png">
+            </div>
+
+            <div onclick='window.open("https://t.me/","_blank")' class="social">
+                <img src="/img/telegram.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="m-toolbar">
+    <div class="mobile-item">
+        <div class="mobile-menu-wrap">
+            <a class="m-toolbar__logo" href="/">
+                <img alt="" src="/img/logo.png">
+            </a>
+        </div>
+        <div class="m-header__social">
+            <div onclick='window.open("https://t.me/","_blank")'
+                 class="m-header__telegram">
+                &nbsp;
+            </div>
+            <div class="m-header__whatsapp" data-phone="79201234567"
+                 data-text="Здравствуйте. Нашли ваше предложение на сайте: " data-url="true"
+                 onclick="whatsapp(this);"
+                 title="WhatsApp">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+    <div class="m-toolbar__contacts">
+        <a class="m-toolbar__contact m-toolbar__phone" href="tel:tel:+79201234567"
+           rel="noopener nofollow">
+            +7 (920) 123-45-67
+        </a>
+        <a class="m-toolbar__contact m-toolbar__email" href="mailto:mail111@gmail.com"
+           target="_blank" rel="noopener nofollow">
+            mail111@gmail.com
+        </a>
+    </div>
+</div>
+<div class="m-header">
+    <div class="m-header__item">
+        <div class="m-header__logo-wrap">
+            <img class="m-header__logo" src="/img/logo.png">
+        </div>
+        <div class="m-header__contacts">
+            <a href="mailto:mail111@gmail.com"
+               class="m-header__mail m-header__text"
+            >mail111@gmail.com</a>
+            <a href="tel:+79201234567"
+               class="m-header__phone m-header__text"
+            >+7 (920) 123-45-67</a>
+        </div>
+    </div>
+    <div class="m-header__item">
+        <div class="m-header-button" data-type="callback">
+            Заказать звонок
+        </div>
+
+        <div class="m-header__social">
+            <div onclick='window.open("https://t.me/","_blank")'
+                 class="m-header__telegram">
+                &nbsp;
+            </div>
+            <div class="m-header__whatsapp" data-phone="79201234567"
+                 data-text="Здравствуйте. Нашли ваше предложение на сайте: " data-url="true"
+                 onclick="whatsapp(this);"
+                 title="WhatsApp">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+<script async>
+    function whatsapp(target) {
+        let href = '//wa.me/';
+        if (target.dataset.phone) {
+            href += target.dataset.phone.replace(/[^0-9]/g, '');
+        }
+        let text = target.dataset.text ? target.dataset.text.replaceAll(' ', '%20') : '';
+        const url = target.dataset.url;
+        if (url && url != 'false') {
+            text += url == 'true' ? window.location.href : url;
+        }
+        if (text != '') {
+            href += '?text=' + text;
+        }
+        window.open(href, '_blank', 'noopener');
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const horizontalMenu = document.querySelector(".menu-bg-ie");
+
+        horizontalMenu.insertAdjacentHTML(
+            "beforeend",
+            `
+				<form accept-charset="UTF-8" accept-encoding="UTF-8" action="/catalog"
+					class="add__search search-form with-search-icon js-company-search-hints-form"
+					method="get" onsubmit="formSubmitter.disableButtons(this, null, null);"
+				>
+					<div style="margin: 0; padding: 0; display: none"><input name="utf8" type="hidden" value="✓" /></div>
+					<input autocomplete="off" class="sf-input js-reset-field js-company-search-hints-input" id="q"
+						maxlenght="255" name="q" placeholder="Найти товар или услугу" type="text"
+					/>
+					<button class="add__search-btn" name="commit" type="submit" value="Поиск"></button>
+				</form>
+			`
+        );
+    });
+
+    document.addEventListener("scroll", () => {
+        if (window.pageYOffset > 167) {
+            document.querySelector(".toolbar").classList.add("toolbar_active");
+            console.log('scroll yes')
+        } else {
+            document.querySelector(".toolbar").classList.remove("toolbar_active");
+        }
+
+        if (window.pageYOffset > 167) {
+            document.querySelector(".m-toolbar").classList.add("m-toolbar_active");
+        } else {
+            document.querySelector(".m-toolbar").classList.remove("m-toolbar_active");
+        }
+    });
+</script>
+
+<div class="covenant">
+    <div class="covenant__container">
+        <div class="covenant__title">
+            Этапы сделки
+        </div>
+        <div class="covenant__items">
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    Вы оставляете заявку на&nbsp;нашем сайте
+                </div>
+            </div>
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    Мы принимаем её и&nbsp;обрабатываем в&nbsp;течении 40&nbsp;минут
+                </div>
+            </div>
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    Запрашиваем у&nbsp;вас карту предприятия
+                </div>
+            </div>
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    Высылаем коммерческое предложение
+                </div>
+            </div>
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    Связываемся с&nbsp;вами, чтобы обсудить все детали заказа
+                </div>
+            </div>
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    Выставляем счёт на&nbsp;оплату&nbsp;50% от&nbsp;суммы заказа
+                </div>
+            </div>
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    После получения оплаты собираем заказ
+                </div>
+            </div>
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    По готовности заказа, отправляем вам счёт на&nbsp;оплату оставшейся суммы
+                </div>
+            </div>
+            <div class="covenant__item">
+                <div class="covenant__item-wrap">
+                    После поступления денежных средств на&nbsp;счёт, отправляем заказ или выдаём на&nbsp;складе
+                </div>
+            </div>
+        </div>
+        <div class="covenant-slider">
+            <div class="swiper-pagination">&nbsp;</div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                Вы оставляете заявку на&nbsp;нашем сайте
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                Мы принимаем её и&nbsp;обрабатываем в&nbsp;течении 40&nbsp;минут
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                Запрашиваем у&nbsp;вас карту предприятия
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                Высылаем коммерческое предложение
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                Связываемся с&nbsp;вами, чтобы обсудить все детали заказа
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                Выставляем счёт на&nbsp;оплату&nbsp;50% от&nbsp;суммы заказа
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                После получения оплаты собираем заказ
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                По готовности заказа, отправляем вам счёт на&nbsp;оплату оставшейся суммы
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="covenant__item">
+                            <div class="covenant__item-wrap">
+                                После поступления денежных средств на&nbsp;счёт, отправляем заказ или выдаём на&nbsp;складе
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const sliderCovenant = new Swiper(".covenant .covenant-slider .swiper-container", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            grabCursor: true,
+            keyboard: {
+                enabled: true,
+            },
+            pagination: {
+                el: ".covenant .covenant-slider .swiper-pagination",
+                dinamicBullets: true,
+                clickable: true,
+            },
+            autoplay: {
+                delay: 6000,
+            },
+            speed: 900,
+        });
+    </script>
+</div>
+<div class="about-wrap">
+    <div class="about">
+        <div class="about_transparent">&nbsp;</div>
+        <p class="about__text">
+            Интернет-магазин осуществляет оптовую и&nbsp;розничную продажу косметики, БАДов и&nbsp;уходовых средств
+            азиатского производства.
+        </p>
+        <p class="about__text">
+            В&nbsp;нашем ассортименте более <span>1000</span> наименований продукции различного назначения:
+            общеукрепляющие
+            пилюли, эликсиры для&nbsp;улучшения мозгового кровообращения, природные антибиотики и&nbsp;прочие продукты.
+        </p>
+        <p class="about__text">
+            Азиатские товары для&nbsp;красоты и&nbsp;здоровья&nbsp;- это сочетание современных разработок и&nbsp;многовековых
+            рецептов. Продукция из&nbsp;Азии ценится во&nbsp;всем мире за&nbsp;свое высокое качество, практичность
+            и&nbsp;эффективность. При обращении к&nbsp;нам вы можете быть уверены в&nbsp;рекомендациях специалистов,
+            так как мы&nbsp;работаем только с&nbsp;проверенными средствами.
+        </p>
+    </div>
+</div>
+<div class="steps-wrapper">
+    <div class="steps-section">
+        <div class="steps">
+            <div class="steps__item">
+                <img class="steps__img" src="/img/step_1.png">
+                <p class="steps__title">
+                    Оставьте заявку
+                </p>
+                <p class="steps__text">
+                    В&nbsp;течение пары минут наш менеджер свяжется с&nbsp;вами, проконсультирует и&nbsp;ответит на&nbsp;все
+                    интересующие вопросы.
+                </p>
+            </div>
+            <div class="steps__item">
+                <img class="steps__img" src="/img/step_2.png">
+                <p class="steps__title">
+                    Выезд сметчика
+                </p>
+                <p class="steps__text">
+                    Мы&nbsp;бесплатно произведем экспертизу состояния вашего помещения или сооружения и&nbsp;рассчитаем
+                    стоимость гидроизоляции.
+                </p>
+            </div>
+            <div class="steps__item">
+                <img class="steps__img" src="/img/step_3.png">
+                <p class="steps__title">
+                    Договор и&nbsp;предоплата
+                </p>
+                <p class="steps__text">
+                    Мы&nbsp;составляем официальный договор, учитывающий все ваши интересы, получаем предоплату и&nbsp;начинаем
+                    работу.
+                </p>
+            </div>
+            <div class="steps__item">
+                <img class="steps__img" src="/img/step_4.png">
+                <p class="steps__title">
+                    Вся работа за&nbsp;один день
+                </p>
+                <p class="steps__text">
+                    Мы&nbsp;выезжаем к&nbsp;вам на&nbsp;объект и&nbsp;производим гидроизоляцию. После вашей приемки, мы&nbsp;получаем
+                    вторую часть оплаты.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="repository-wrap">
+    <div class="about__title slide__title">
+        Фото нашего склада и&nbsp;производства
+    </div>
+    <div class="repository repository-2">
+        <div class="repository__slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide repository__image-1-wrap">
+                        <div class="repository__image">
+                            <img loading="lazy" src="/img/repository_1.jpeg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="repository__image">
+                            <img loading="lazy" src="/img/repository_2.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="repository__image">
+                            <img loading="lazy" src="/img/repository_3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="repository__navigation">
+            <div class="swiper-button-prev">&nbsp;</div>
+            <div class="swiper-pagination">&nbsp;</div>
+            <div class="swiper-button-next">&nbsp;</div>
+        </div>
+    </div>
+    <div class="pop-up" id="gallery__pop-up">
+        <div class="pop-up__overlay"></div>
+        <div class="pop-up__content-wrapper">
+            <div class="pop-up__content">
+                <img src=""/>
+            </div>
+            <button class="pop-up__button pop-up__button_prev">Вперед</button>
+            <button class="pop-up__button pop-up__button_next">Назад</button>
+            <button class="pop-up__button pop-up__button_close">Закрыть</button>
+        </div>
+    </div>
+    <script>
+        function renderSlider(container, prev, next, pagin) {
+            let slider = new Swiper(container, {
+                slidesPerView: 'auto',
+                spaceBetween: 8,
+                loop: true,
+                loopedSlides: 12,
+                grabCursor: true,
+                mousewheel: false,
+                keyboard: {
+                    enabled: true,
+                },
+                autoplay: {
+                    delay: 5000,
+                },
+                navigation: {
+                    prevEl: prev,
+                    nextEl: next,
+                },
+                pagination: {
+                    el: pagin,
+                    dinamicBullets: true,
+                    clickable: true,
+                },
+                breakpoints: {
+                    200: {
+                        slidesPerView: 1,
+                    },
+                    600: {
+                        slidesPerView: 'auto',
+                    },
+                    1300: {
+                        slidesPerView: 'auto',
+                    },
+                },
+            });
+            return slider;
+        }
+
+        renderSlider(
+            ".repository-2 .swiper-container",
+            ".repository-2 .swiper-button-prev",
+            ".repository-2 .swiper-button-next",
+            ".repository-2 .swiper-pagination"
+        );
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const overlay = document.querySelector(".pop-up__overlay");
+            const closeBtn = document.querySelector(".pop-up__button_close");
+
+            document.addEventListener("click", (e) => {
+                console.log(e.target);
+            });
+
+            if (typeof popUp === "undefined") {
+                var popUp = [];
+            }
+            popUp = document.querySelectorAll(".pop-up");
+
+            function popOpen(customId) {
+                let siteBody = document.querySelector("body");
+                siteBody.classList.add("stop-scroll");
+
+                for (let i = 0; i < popUp.length; i++) {
+                    if (popUp[i].id == customId) {
+                        popUp[i].classList.add("pop-up_active");
+                    }
+                }
+            }
+
+            function popClose() {
+                let siteBody = document.querySelector("body");
+                siteBody.classList.remove("stop-scroll");
+                for (let i = 0; i < popUp.length; i++) popUp[i].classList.remove("pop-up_active");
+            }
+
+            let galleryPopUp = document.getElementById("gallery__pop-up"),
+                galleryPopUpPrev = galleryPopUp.querySelector(".pop-up__button_prev"),
+                galleryPopUpNext = galleryPopUp.querySelector(".pop-up__button_next"),
+                galleryPopUpContent = galleryPopUp.querySelector(".pop-up__content img");
+
+            const galleryList = document.querySelectorAll(".repository");
+
+            galleryList.forEach((list) => {
+                list.addEventListener("click", (e) => {
+                    let galleryImage = list.querySelectorAll(".repository__image");
+                    let galleryImageCurrent = 0;
+
+                    function showImage() {
+                        galleryPopUpContent.setAttribute(
+                            "src",
+                            galleryImage[galleryImageCurrent].querySelector("img").getAttribute("src")
+                        );
+                    }
+
+                    let array = [];
+                    for (let i = 0; i < galleryImage.length; i++) {
+                        array.push(galleryImage[i]);
+                        console.log(array);
+                    }
+
+                    if (e.target.classList.contains("repository__image")) {
+                        galleryImageCurrent = array.indexOf(e.target);
+
+                        console.log(galleryImageCurrent);
+                        showImage();
+                        popOpen("gallery__pop-up");
+                    }
+
+                    galleryPopUpPrev.addEventListener("click", function () {
+                        if (galleryImageCurrent == 0) {
+                            galleryImageCurrent = galleryImage.length - 1;
+                        } else {
+                            galleryImageCurrent = (galleryImageCurrent - 1) % galleryImage.length;
+                        }
+                        showImage();
+                    });
+
+                    galleryPopUpNext.addEventListener("click", function () {
+                        galleryImageCurrent = (galleryImageCurrent + 1) % galleryImage.length;
+                        showImage();
+                    });
+                });
+            });
+
+            overlay.addEventListener("click", () => {
+                popClose();
+            });
+
+            closeBtn.addEventListener("click", () => {
+                popClose();
+            });
+        });
+    </script>
+</div>
+<div class="photos-wrapper">
+    <h3 class="about__title">Фото объектов</h3>
+    <div class="photos">
+        <div class="photos__item photos__item_big photos__item">
+            <div class="photos__img photos__img_big photos__img">
+                <img src="/img/photos_1.jpg" data-index="0">
+            </div>
+        </div>
+        <div class="photos-block swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="photos__item photos__item2">
+                        <div class="photos__img photos__img3">
+                            <img src="/img/photos_1.jpg">
+                        </div>
+                    </div>
+                    <div class="photos__item photos__item2">
+                        <div class="photos__img">
+                            <img src="/img/photos_2.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photos__item photos__item2">
+                        <div class="photos__img">
+                            <img src="/img/photos_3.jpg">
+                        </div>
+                    </div>
+                    <div class="photos__item photos__item2">
+                        <div class="photos__img">
+                            <img src="/img/photos_4.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photos__item photos__item2">
+                        <div class="photos__img">
+                            <img src="/img/photos_5.jpg">
+                        </div>
+                    </div>
+
+                    <div class="photos__item photos__item2">
+                        <div class="photos__img">
+                            <img src="/img/photos_6.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-navigation">
+        <div class="slider__btn-prev"></div>
+        <div class="slider__pagination"></div>
+        <div class="slider__btn-next"></div>
+    </div>
+    <!--Pop-up-->
+    <style>
+        .pop-up-doc {
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .2s;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1
+        }
+
+        .pop-up-doc_active {
+            visibility: visible;
+            opacity: 1;
+            z-index: 10000
+        }
+
+        .pop-up-doc__overlay {
+            display: block !important;
+            background-color: #333;
+            opacity: .96;
+            cursor: zoom-out;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1
+        }
+
+        .pop-up-doc__content-wrapper {
+            display: inline-flex !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 2
+        }
+
+        .pop-up-doc__content {
+            overflow-y: visible;
+        }
+
+        .pop-up-doc__content_wide {
+            max-width: 100%;
+            overflow-x: auto
+        }
+
+        .pop-up-doc__button {
+            display: block;
+            width: 40px;
+            height: 40px;
+            box-sizing: border-box;
+            outline: none;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            overflow: hidden;
+            background: #333 center no-repeat;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+            color: transparent;
+            line-height: 1;
+            user-select: none;
+            cursor: pointer;
+            transition: background-color .2s;
+            z-index: 2
+        }
+
+        .pop-up-doc__button:hover {
+            background-color: #444
+        }
+
+        .pop-up-doc__button_prev,
+        .pop-up-doc__button_next {
+            position: fixed;
+            top: calc(50% - 20px)
+        }
+
+        .pop-up-doc__button_prev {
+            background-image: url('https://testovy-sait-208.pulscen.ru/system/ckeditor_assets/pictures/186703/content_prev.png');
+            left: 1em
+        }
+
+        .pop-up-doc__button_next {
+            background-image: url('https://testovy-sait-208.pulscen.ru/system/ckeditor_assets/pictures/186700/content_next.png');
+            right: 1em
+        }
+
+        .pop-up-doc__button_close-doc {
+            background-image: url('https://testovy-sait-208.pulscen.ru/system/ckeditor_assets/pictures/179441/content_x.png');
+            position: absolute;
+            top: -20px;
+            right: -20px
+        }
+
+        .pop-up-doc__button_hidden {
+            display: none !important
+        }
+
+        .stop-scroll-doc {
+            height: 100vh;
+            overflow: hidden
+        }
+
+        .pop-up-doc__content .image-wrapper {
+            border: none;
+        }
+
+        #photo__pop-up-doc .company-licenses-item__title {
+            display: none;
+        }
+
+
+        @media screen and (min-width: 1024px) {
+            .pop-up-doc__content-wrapper {
+                max-height: 90vh;
+                max-width: 90vw
+            }
+
+            .pop-up-doc__content-wrapper > *,
+            .pop-up-doc__content-wrapper img {
+                max-height: 90vh
+            }
+        }
+
+        @media screen and (max-width: 1023px) {
+
+            .pop-up-doc__content-wrapper {
+                max-height: 100%;
+                padding: 1em .5em calc(40px + 2em);
+                overflow-y: auto
+            }
+
+            .pop-up-doc__content-wrapper > * {
+                max-width: 100%
+            }
+
+            .pop-up-doc__button {
+                position: absolute;
+                top: auto;
+                bottom: 1em
+            }
+
+            .pop-up-doc__button_prev {
+                left: calc(50% - 80px)
+            }
+
+            .pop-up-doc__button_next {
+                right: calc(50% - 80px)
+            }
+
+            .pop-up-doc__button_close-doc {
+                right: calc(50% - 20px)
+            }
+        }
+
+        .photos-wrapper .pop-up-doc img {
+            max-width: 100%;
+            height: auto !important;
+        }
+    </style>
+    <div class="pop-up-doc" id="photo__pop-up-doc">
+        <div class="pop-up-doc__overlay" onclick="popCloseDoc();"></div>
+        <div class="pop-up-doc__content-wrapper">
+            <div class="pop-up-doc__content">
+                <img src="" alt="">
+            </div>
+            <button class="pop-up-doc__button pop-up-doc__button_prev">Вперед</button>
+            <button class="pop-up-doc__button pop-up-doc__button_next">Назад</button>
+            <button class="pop-up-doc__button pop-up-doc__button_close-doc"
+                    onclick="popCloseDoc();">Закрыть
+            </button>
+        </div>
+    </div>
+    <script>
+        /* переключение картинки */
+        const prevCert = document.querySelectorAll(".photos-block .photos__img");
+        const bigCert = document.querySelector(".photos__img_big");
+        const itemCert = document.querySelectorAll(".photos-block .photos__item");
+
+        prevCert.forEach((elementTarget, i) => {
+            elementTarget.addEventListener("click", (event) => {
+                let certSrc = prevCert[i].childNodes[1].getAttribute("src");
+                bigCert.childNodes[1].setAttribute("src", certSrc);
+                bigCert.childNodes[1].dataset.index = i;
+
+                for (let index = 0; index < prevCert.length; index++) {
+                    prevCert[index].classList.remove("photos__img3");
+                }
+
+                prevCert[i].classList.add("photos__img3");
+            });
+        });
+
+        bigCert.addEventListener('click', function (event) {
+            event.preventDefault();
+            let dataIndex = bigCert.childNodes[1].getAttribute("data-index");
+            for (let index = 0; index < prevCert.length; index++) {
+                prevCert[index].classList.remove("photos__img2");
+            }
+            prevCert[dataIndex].classList.add("photos__img2");
+            prevCert[dataIndex].click();
+            prevCert[dataIndex].classList.remove("photos__img2");
+        });
+
+        /* галерея */
+        if (typeof popUpDoc === 'undefined') {
+            var popUpDoc = []
+        }
+        popUpDoc = document.querySelectorAll('.pop-up-doc');
+
+        function popOpenDoc(customIdDoc) {
+            let siteBodyDoc = document.querySelector('body');
+            siteBodyDoc.classList.add('stop-scroll-doc');
+            for (let i = 0; i < popUpDoc.length; i++) {
+                if (popUpDoc[i].id == customIdDoc) {
+                    popUpDoc[i].classList.add('pop-up-doc_active')
+                }
+            }
+        }
+
+        function popCloseDoc() {
+            let siteBodyDoc = document.querySelector('body');
+            siteBodyDoc.classList.remove('stop-scroll-doc');
+            for (let i = 0; i < popUpDoc.length; i++)
+                popUpDoc[i].classList.remove('pop-up-doc_active');
+        }
+
+        const photoList = document.querySelector('.photos'),
+            photoImage = document.querySelectorAll('.photos__item2'),
+            photopopUpDoc = document.getElementById('photo__pop-up-doc'),
+            photopopUpDocPrev = photopopUpDoc.querySelector('.photos-wrapper .pop-up-doc__button_prev'),
+            photopopUpDocNext = photopopUpDoc.querySelector('.photos-wrapper .pop-up-doc__button_next'),
+            photopopUpDocContent = photopopUpDoc.querySelector('.photos-wrapper .pop-up-doc__content');
+        let photoImageCurrent = 0;
+
+        function showImage() {
+            photopopUpDocContent.innerHTML = photoImage[photoImageCurrent].innerHTML;
+
+        }
+
+        photoList.onclick = function (e) {
+            let array = [];
+            for (let i = 0; i < photoImage.length; i++) {
+                array.push(photoImage[i]);
+            }
+            if (e.target.classList.contains('photos__img2')) {
+                let targetParent = e.target.closest('.photos__item2');
+                photoImageCurrent = array.indexOf(targetParent);
+                showImage();
+                popOpenDoc('photo__pop-up-doc');
+            }
+        }
+
+        photopopUpDocPrev.addEventListener('click', function () {
+            if (photoImageCurrent == 0) {
+                photoImageCurrent = photoImage.length - 1;
+            } else {
+                photoImageCurrent = (photoImageCurrent - 1) % photoImage.length;
+            }
+            showImage();
+        });
+
+        photopopUpDocNext.addEventListener('click', function () {
+            photoImageCurrent = (photoImageCurrent + 1) % photoImage.length;
+            showImage();
+        });
+    </script>
+    <!--end Pop-up-->
+
+    <script>
+        var photoSlider = new Swiper('.photos-wrapper .swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: false,
+            loopedSlides: 12,
+            grabCursor: true,
+            mousewheel: true,
+            keyboard: {
+                enabled: true,
+            },
+            autoplay: {
+                delay: 5000,
+            },
+            navigation: {
+                prevEl: '.photos-wrapper .slider__btn-prev',
+                nextEl: '.photos-wrapper .slider__btn-next',
+            },
+            pagination: {
+                el: ".photos-wrapper .slider__pagination",
+                dinamicBullets: true,
+                clickable: true,
+            },
+            breakpoints: {
+                200: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                1000: {
+                    slidesPerView: 2,
+                },
+                1800: {
+                    slidesPerView: 2,
+                }
+            }
+        });
+    </script>
+</div>
+<div class="conveyer-wrap">
+    <div class="conveyer">
+        <div class="conveyer__item">
+            <p class="conveyer__text">
+                Конвейерные ленты для легких условий эксплуатации имеют ширину от&nbsp;100 до&nbsp;1400&nbsp;мм
+                и&nbsp;могут быть изготовлены
+                по&nbsp;индивидуальным размерам.<br>
+                Они используются для транспортировки малоабразивных материалов, включая продукты сельского
+                хозяйства, такие как мелкие, сыпучие и&nbsp;пакетированные вещества.
+            </p>
+        </div>
+        <div class="conveyer__item">
+            <p class="conveyer__text">
+                Лента конвейерная для средних условий эксплуатации используется для транспортировки
+                малоабразивных материалов
+                с&nbsp;кусками до&nbsp;150&nbsp;мм, например глины и&nbsp;цемента, а&nbsp;также мягких пород.
+                Она также подходит для&nbsp;перемещения высокоабразивных материалов
+                с&nbsp;кусками до&nbsp;100&nbsp;мм, таких как куски руд чёрных и&nbsp;цветных металлов, крепкие
+                горные породы, известняк, доломит, кокс, агломерат, шихта
+                и&nbsp;концентрат рудный.
+            </p>
+        </div>
+        <div class="conveyer__item">
+            <p class="conveyer__text">
+                Лента конвейерная для&nbsp;тяжелых условий эксплуатации используется для&nbsp;транспортировки
+                крупнокусковых материалов, таких как доломит (куски до&nbsp;500&nbsp;мм), руды металлов (до&nbsp;350&nbsp;мм)
+                и&nbsp;транспортирования бревен размером до&nbsp;900&nbsp;мм, угля кусками
+                до&nbsp;700&nbsp;мм и&nbsp;кусков пород размером до&nbsp;500&nbsp;мм.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="stage-wrapper">
+    <div class="stage-section">
+        <img class="stage__img" src="/img/stage-img.png">
+        <h1 class="stage__title">Этапы работ:</h1>
+        <div class="stage">
+            <div class="stage__item">
+                <p class="stage__number">1</p>
+                <p class="stage__text">Поиск необходимого для Вас товара <br> (в случае если не известен
+                    производитель).</p>
+            </div>
+            <div class="stage__item">
+                <p class="stage__number">2</p>
+                <p class="stage__text">Ведение переговоров с <br> заводом-производителем.</p>
+            </div>
+            <div class="stage__item">
+                <p class="stage__number">3</p>
+                <p class="stage__text">Предоставление полной технической <br> информации, стоимости и сроки
+                    поставки.
+                </p>
+            </div>
+            <div class="stage__item">
+                <p class="stage__number">4</p>
+                <p class="stage__text">Заключение <br> контракта.</p>
+            </div>
+            <div class="stage__item">
+                <p class="stage__number">5</p>
+                <p class="stage__text">Контроль производства товара <br> (если не имеется в наличии).</p>
+            </div>
+            <div class="stage__item">
+                <p class="stage__number">6</p>
+                <p class="stage__text">Доставка товара до <br> склада получателя в РФ.</p>
+            </div>
+            <div class="stage__item">
+                <p class="stage__number">7</p>
+                <p class="stage__text">Подготовка всех необходимых <br> документов и разрешений.</p>
+            </div>
+            <div class="stage__item">
+                <p class="stage__number">8</p>
+                <p class="stage__text">Проведение монтажных работ и <br> обучение (при необходимости).</p>
+            </div>
+            <div class="stage__item">
+                <p class="stage__number">9</p>
+                <p class="stage__text">Гарантийное и послегарантийное <br> обслуживание.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about-shops">
+    <div class="about-top__title">Наши магазины</div>
+    <div class="about-map">
+        <div class="about-map-block">
+            <div class="about-map__text-block">
+                <div class="about-map__text about-map__text_active"
+                     data-map="https://yandex.ru/map-widget/v1/-/CCUJr2WHKA">
+                    <p class="about-map__title about__text">Магазин в Куйбышево</p>
+                    <p class="about-map__contacts about-map__address about__text">
+                        г. Куйбышев, Пиотровского</p>
+                    <p class="about-map__contacts about-map__phone about__text">
+                        8 (800) 111-22-33</p>
+                    <p class="about-map__contacts about-map__time about__text">
+                        График работы: пн-вс 8:00-19:00</p>
+                </div>
+                <div class="about-map__text" data-map="https://yandex.ru/map-widget/v1/-/CCUJr-uKsC">
+                    <p class="about-map__title about__text">Пункт выдачи интернет-заказов</p>
+                    <p class="about-map__contacts about-map__address about__text">
+                        г. Новосибирск, ул. Нижегородская</p>
+                    <p class="about-map__contacts about-map__phone about__text">
+                        +7 (383) 222-44-44</p>
+                    <p class="about-map__contacts about-map__time about__text">
+                        пн-пт 9:00-18:00</p>
+                </div>
+                <div class="about-map__text" data-map="https://yandex.ru/map-widget/v1/-/CCUJr-BWWD">
+                    <p class="about-map__title about__text">Магазин в Черепаново</p>
+                    <p class="about-map__contacts about-map__address about__text">
+                        г. Черепаново, ул. Романова</p>
+                    <p class="about-map__contacts about-map__phone about__text">
+                        +7 (38345) 9-99-99</p>
+                    <p class="about-map__contacts about-map__time about__text">
+                        Ежедневно 9:00-19:00</p>
+                </div>
+            </div>
+
+            <div class="about-map__iframe" style="position:relative;overflow:hidden;">
+                <iframe src="https://yandex.ru/map-widget/v1/-/CCUJr2WHKA" width="" height="100%" frameborder="0"
+                        allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+        <div class="about-map__button-wrapper">
+            <p class="about-map__button">
+                <span>Скрыть карту</span>
+                <span>Показать карту</span>
+            </p>
+        </div>
+    </div>
+    <script>
+        /* открытие блока карты */
+        let mapButton = document.querySelector('.about-map__button');
+        mapButton.onclick = function () {
+            mapButton.closest('.about-map').classList.toggle("about-map_show");
+        }
+
+        /* переключение карт */
+        const mapText = document.querySelectorAll(".about-map__text");
+        const mapIframe = document.querySelector(".about-map__iframe iframe");
+
+        mapText.forEach((elementTarget, i) => {
+            elementTarget.addEventListener("click", (event) => {
+                for (let index = 0; index < mapText.length; index++) {
+                    const element = mapText[index];
+                    element.classList.remove("about-map__text_active");
+                }
+                mapText[i].classList.add("about-map__text_active");
+                let mapSrc = mapText[i].getAttribute("data-map");
+                mapIframe.setAttribute("src", mapSrc);
+            });
+        });
+    </script>
+</div>
+<div class="steps1-wrapper">
+    <div class="steps1">
+        <div class="steps1__item">
+            <p class="steps1__number">1</p>
+            <p class="steps1__text">
+                Получение <br> заявки
+            </p>
+        </div>
+
+        <div class="steps1__item">
+            <p class="steps1__number">2</p>
+            <p class="steps1__text">
+                Расчёт <br> стоимости <br> монтажа
+            </p>
+        </div>
+
+        <div class="steps1__item">
+            <p class="steps1__number">3</p>
+            <p class="steps1__text">
+                Согласование <br> сметы <br>
+                с&nbsp;заказчиком
+            </p>
+        </div>
+
+        <div class="steps1__item">
+            <p class="steps1__number">4</p>
+            <p class="steps1__text">
+                Предоплата
+            </p>
+        </div>
+
+        <div class="steps1__item">
+            <p class="steps1__number">5</p>
+            <p class="steps1__text">
+                Выполнение <br> работ
+            </p>
+        </div>
+
+        <div class="steps1__item">
+            <p class="steps1__number">6</p>
+            <p class="steps1__text">
+                Приёмка <br> работ <br> заказчиком
+            </p>
+        </div>
+
+        <div class="steps1__item">
+            <p class="steps1__number">7</p>
+            <p class="steps1__text">
+                Оплата <br> оставшейся <br> суммы
+            </p>
+        </div>
+
+        <div class="steps1__item">
+            <p class="steps1__number">8</p>
+            <p class="steps1__text">
+                Гарантийное <br> обслуживание
+            </p>
+        </div>
+
+        <div class="steps1__item">
+            <p class="steps1__number">9</p>
+            <p class="steps1__text">
+                Постгарантийное <br> обслуживание
+            </p>
+        </div>
+    </div>
+    <div class="steps-slider">
+        <div class="swiper-pagination">&nbsp;</div>
+        <div class="swiper-container">
+            <div class="steps__items swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">1</div>
+                        <div class="steps__descr">
+                            Получение <br/>
+                            заявки
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">2</div>
+                        <div class="steps__descr">
+                            Расчёт
+                            стоимости
+                            монтажа
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">3</div>
+                        <div class="steps__descr">
+                            Согласование
+                            сметы
+                            с&nbsp;заказчиком
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">4</div>
+                        <div class="steps__descr">Предоплата</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">5</div>
+                        <div class="steps__descr">
+                            Выполнение
+                            работ
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">6</div>
+                        <div class="steps__descr">
+                            Приёмка
+                            работ
+                            заказчиком
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">7</div>
+                        <div class="steps__descr">
+                            Оплата
+                            оставшейся
+                            суммы
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">8</div>
+                        <div class="steps__descr">
+                            Гарантийное
+                            обслуживание
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">9</div>
+                        <div class="steps__descr">
+                            Постгарантийное
+                            обслуживание
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="steps3-wrapper">
+    <div class="steps3">
+        <div class="steps3__item-wrapper">
+            <div class="steps3__item">
+                <p class="steps3__number">1</p>
+                <p class="steps3__text">
+                    Оформление <br> заказа
+                </p>
+            </div>
+            <div class="steps3__arrow">&nbsp;</div>
+        </div>
+        <div class="steps3__item-wrapper">
+            <div class="steps3__item">
+                <p class="steps3__number">2</p>
+                <p class="steps3__text">
+                    Уточнение <br> деталей
+                </p>
+            </div>
+            <div class="steps3__arrow">&nbsp;</div>
+        </div>
+        <div class="steps3__item-wrapper">
+            <div class="steps3__item">
+                <p class="steps3__number">3</p>
+                <p class="steps3__text">
+                    Оплата
+                </p>
+            </div>
+            <div class="steps3__arrow">&nbsp;</div>
+        </div>
+        <div class="steps3__item-wrapper">
+            <div class="steps3__item">
+                <p class="steps3__number">4</p>
+                <p class="steps3__text">
+                    Доставка
+                </p>
+            </div>
+            <div class="steps3__arrow">&nbsp;</div>
+        </div>
+    </div>
+    <div class="works-slider">
+        <div class="swiper-pagination">&nbsp;</div>
+        <div class="swiper-container">
+            <div class="steps__items swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">1</div>
+                        <div class="steps__descr">
+                            Оформление
+                            заказа
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">2</div>
+                        <div class="steps__descr">
+                            Уточнение
+                            деталей
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">3</div>
+                        <div class="steps__descr">
+                            Оплата
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="steps4__item">
+                        <div class="steps__num">4</div>
+                        <div class="steps__descr">Доставка</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const sliderSteps = new Swiper(".steps-slider .swiper-container", {
+            slidesPerView: 1,
+            loop: true,
+            grabCursor: true,
+            keyboard: {
+                enabled: true,
+            },
+            pagination: {
+                el: ".steps-slider .swiper-pagination",
+                dinamicBullets: true,
+                clickable: true,
+            },
+            autoplay: {
+                delay: 6000,
+            },
+            speed: 900,
+        });
+        const sliderWorks = new Swiper(".works-slider .swiper-container", {
+            slidesPerView: 1,
+            loop: true,
+            grabCursor: true,
+            keyboard: {
+                enabled: true,
+            },
+            pagination: {
+                el: ".works-slider .swiper-pagination",
+                dinamicBullets: true,
+                clickable: true,
+            },
+            autoplay: {
+                delay: 6000,
+            },
+            speed: 900,
+        });
+    </script>
+</div>
+<div class="value">
+    <div class="value__img-block">
+        <div class="value__title">
+            Технические характеристики АТ&#8209;350М
+        </div>
+        <img class="value__img" src="/img/value-img.png">
+    </div>
+
+    <div class="value__table-wrap">
+        <table class="value__table">
+            <tr>
+                <th>Наименование показателя</th>
+                <th>Значение</th>
+            </tr>
+            <tr>
+                <td>Грузоподъемность стрелы (кузова),&nbsp;кг</td>
+                <td>350&nbsp;(600)</td>
+            </tr>
+            <tr>
+                <td>Номинальная вместимость ковша, куб.м</td>
+                <td>0,15</td>
+            </tr>
+            <tr>
+                <td>Опрокидывающая нагрузка в&nbsp;горизонте,&nbsp;кг</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Высота разгрузки,&nbsp;мм</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td>Вылет кромки ковша,&nbsp;мм</td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <td>Шины</td>
+                <td>205/75&nbsp;R15</td>
+            </tr>
+            <tr>
+                <td>Габаритные размеры с&nbsp;крышей, мм&nbsp;(ДхШхВ)<br>
+                    <span>*без&nbsp;навесного оборудования</span>
+                </td>
+                <td>2310*х1325х2100</td>
+            </tr>
+            <tr>
+                <td>Дорожный просвет&nbsp;(клиренс),&nbsp;мм</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Эксплуатационная масса, кг&nbsp;(без&nbsp;навесного оборудования)</td>
+                <td>1025</td>
+            </tr>
+            <tr>
+                <td>Трансмиссия, полноприводная</td>
+                <td>Гидростатическая</td>
+            </tr>
+            <tr>
+                <td>Скорость передвижения, км/ч:</td>
+                <td>до&nbsp;10</td>
+            </tr>
+            <tr>
+                <td>Двигатель</td>
+                <td>Lifan 2v80F&#8209;A</td>
+            </tr>
+            <tr>
+                <td>Объем двигателя,&nbsp;см3</td>
+                <td>742</td>
+            </tr>
+            <tr>
+                <td>Эксплуатационная мощность,&nbsp;кВт&nbsp;(л.с.)</td>
+                <td>21&nbsp;(29)</td>
+            </tr>
+            <tr>
+                <td>Топливный бак</td>
+                <td>20л</td>
+            </tr>
+            <tr>
+                <td>Гидросистема</td>
+                <td>40л</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="delivery delivery-section delivery__transport">
+    <div class="delivery__text-block">
+        <h2 class="delivery__title">Доставка транспортной компанией</h2>
+        <p class="delivery__text">
+            Мы доставляем товар по&nbsp;всей территории России и&nbsp;СНГ
+        </p>
+        <p class="delivery__text">
+            По запросу клиента возможна доставка продукции любой транспортной компанией
+        </p>
+        <p class="delivery__text">
+            Оплата за&nbsp;доставку производится при&nbsp;получении товара
+        </p>
+        <p class="delivery__text">
+            Доставка до&nbsp;терминала транспортной компании&nbsp;- бесплатно
+        </p>
+        <div class="delivery__text-manager">
+            Обратитесь к&nbsp;нашим менеджерам, чтобы узнать стоимость и&nbsp;сроки доставки интересующего<br> Вас
+            товара в&nbsp;Ваш город
+        </div>
+
+    </div>
+    <img class="delivery__img" src="/img/transport.png">
+</div>
+<div class="delivery__tk delivery-section">
+    <div class="delivery__tk-item"
+         onclick="window.open('https://www.dellin.ru/requests/?step=freight&requestType=cargo-single', '_blank');"
+    >
+        <img src="/img/tk_1.png" alt="">
+    </div>
+    <div class="delivery__tk-item"
+         onclick="window.open('https://www.cdek.ru/ru/calculate', '_blank');"
+    >
+        <img src="/img/tk_2.png" alt="">
+    </div>
+    <div class="delivery__tk-item"
+         onclick="window.open('https://pecom.ru/services-are/shipping-request/', '_blank');"
+    >
+        <img src="/img/tk_3.png" alt="">
+    </div>
+    <div class="delivery__tk-item"
+         onclick="window.open('https://spare.tk-kit.com/order-one', '_blank');"
+    >
+        <img src="/img/tk_4.png" alt="">
+    </div>
+    <div class="delivery__tk-item"
+         onclick="window.open('https://www.jde.ru/online/calculator.html', '_blank');"
+    >
+        <img src="/img/tk_5.png" alt="">
+    </div>
+</div>
+<div class="delivery-auto">
+    <div class="delivery-auto-wrap">
+        <div class="delivery-auto__text-block">
+            <h2 class="delivery-auto__title">Доставка автопарком компании</h2>
+            <p class="delivery-auto__text">
+                Мы организуем доставку до&nbsp;места назначения<br> точно в&nbsp;срок, собственным автомобилем
+            </p>
+            <p class="delivery-auto__text">
+                Доставка осуществляется<br> на&nbsp;следующий день после оформления заказа
+            </p>
+
+            <p class="delivery-auto__text-check">
+                Интервал доставки: 9.00&nbsp;– 17.00
+            </p>
+            <p class="delivery-auto__text-check">
+                Возможна доставка по&nbsp;звонку с&nbsp;оплатой при&nbsp;получении
+            </p>
+            <div class="pay__button">Реквизиты для оплаты</div>
+            <div class="pay__requisites-wrapper">
+                <div class="pay__requisites">
+                    <div class="pay__close" title="закрыть">
+                        <img src="/img/pay-close.png">
+                    </div>
+                    <p class="pay__requisites-title">
+                        ОБЩЕСТВО С&nbsp;ОГРАНИЧЕННОЙ ОТВЕСТВЕННОСТЬЮ</p>
+                    <p class="pay__requisites-text">
+                        ОГРН: 1111196021111 <br>
+                        ОКПО: 11113613 <br>
+                        ИНН/КПП: 111 111 89 21/615 401 001
+                    </p>
+                    <p class="pay__requisites-text">
+                        Р/С (в Российских рублях): 111 111 111 260 000 047 15 <br>
+                    </p>
+                    <p class="pay__requisites-text">
+                        Филиал «Ростовский» АО «АЛЬФА-БАНК» <br>
+                        Г. Ростов-на-Дону <br>
+                        БИК: 111 111 207 <br>
+                        Кор/счет: 111 111 105 000 000 002 07
+                    </p>
+                    <p class="pay__requisites-text">
+                        Юр.адрес : 347927 Россия, Ростовская обл., г.Таганрог, ул.Поляковское Шоссе <br>
+                        Почтовый адрес: 347943, Ростовская обл., г.Таганрог, пер.7-й Новый
+                    </p>
+                    <p class="pay__requisites-text">
+                        Тел бухгалтерия: 8 (800) 111 11 11 <br>
+                        taganrog@mail.ru
+                    </p>
+                    <p class="pay__requisites-text">
+                        Директор <br>
+                        на&nbsp;основании Устава
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Tabs
+        const _customerTabs = document.querySelectorAll(".pay__button");
+        const _customerContent = document.querySelectorAll(".pay__requisites");
+
+        _customerTabs.forEach((elementTarget, i) => {
+            elementTarget.addEventListener("click", (event) => {
+                for (let index = 0; index < _customerTabs.length; index++) {
+                    const element = _customerTabs[index];
+                    element.classList.remove("pay__button-active");
+                    _customerContent[index].classList.remove("pay__requisites-active");
+                    _customerContent[index].closest("body").classList.remove("body-active");
+                }
+
+                _customerTabs[i].classList.add("pay__button-active");
+                _customerContent[i].classList.add("pay__requisites-active");
+                _customerContent[i].closest("body").classList.add("body-active");
+
+                /* закрытие окна тура при клике по Esc */
+                document.addEventListener('keydown', function (event) {
+                    const key = event.key;
+                    if (key === "Escape") {
+                        _customerTabs[i].classList.remove("pay__button-active");
+                        _customerContent[i].classList.remove("pay__requisites-active");
+                        _customerContent[i].closest("body").classList.remove("body-active");
+                    }
+                });
+            });
+        });
+        // end Tabs
+
+        /* закрытие виджета при клике вне блока */
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('body-active')) {
+                document.querySelector(".pay__requisites.pay__requisites-active").classList.remove("pay__requisites-active");
+                document.querySelector("body.body-active").classList.remove("body-active");
+            }
+        });
+
+        /* закрытие виджета */
+        if (document.querySelector(".pay__close")) {
+            let tourButtonClose = document.querySelectorAll('.pay__close')
+            for (let i = 0; i < tourButtonClose.length; i++) {
+                tourButtonClose[i].onclick = function () {
+                    this.closest(".pay__requisites").classList.remove("pay__requisites-active");
+                    this.closest("body").classList.remove("body-active");
+                }
+            }
+        }
+    </script>
+</div>
+<div class="video__section reviews">
+    <div class="video__container">
+        <ul class="reviews__list">
+            <li class="video" data-id="KCeVGDU90gw">
+                <div class="video__view"></div>
+                <div class="video__description">
+                    <p class="video__date">9&nbsp;нояб. 2023&nbsp;г.</p>
+                    <p class="video__title">Купить морской контейнер 40&nbsp;футов с&nbsp;доставкой
+                        недорого</p>
+                </div>
+            </li>
+            <li class="video" data-id="HDPYiWy3rtc">
+                <div class="video__view"></div>
+                <div class="video__description">
+                    <p class="video__date">9&nbsp;нояб. 2023&nbsp;г.</p>
+                    <p class="video__title">Купить 20&nbsp;футовый морской контейнер с&nbsp;доставкой</p>
+                    <p class="video__text">Погрузка контейнера бесплатно</p>
+                </div>
+            </li>
+            <li class="video" data-id="f010IHf6_0E">
+                <div class="video__view"></div>
+                <div class="video__description">
+                    <p class="video__date">8&nbsp;нояб. 2023&nbsp;г.</p>
+                    <p class="video__title">Купить морской контейнер 40&nbsp;футов недорого
+                        с&nbsp;доставкой</p>
+                </div>
+            </li>
+            <li class="video" data-id="9OVa2-TkYng">
+                <div class="video__view"></div>
+                <div class="video__description">
+                    <p class="video__date">30&nbsp;окт. 2023&nbsp;г.</p>
+                    <p class="video__title">Морской контейнер 20&nbsp;фут с&nbsp;доставкой недорого</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script async>
+        document.querySelectorAll('.video').forEach(video => {
+            const id = video.dataset.id;
+            let preview = video.dataset.preview;
+            preview = preview ? preview : `//i.ytimg.com/vi/` + id + `/sddefault.jpg`;
+            video.querySelector('.video__view').setAttribute('style', `background-image:url(` + preview + `)`);
+            video.addEventListener('click', (e) => {
+                if (e.target.classList.contains('video__view') && !e.target.classList.contains('video__view_loaded')) {
+                    e.target.classList.add('video__view_loaded');
+                    e.target.insertAdjacentHTML('beforeEnd', `<iframe src="//www.youtube.com/embed/` + id + `?autoplay=1&amp;autohide=1&amp;loop=1&amp;playlist=` + id + `" width="100%" height="100%" frameborder="0" autoplay="autoplay" allow="autoplay" allowfullscreen></iframe>`);
+                }
+            });
+        });
+    </script>
+</div>
+<div class="feedback">
+    <div class="feedback__form">
+        <div class="feedback__text-wrapper">
+            <div class="feedback__title">
+                Обсудим детали?
+            </div>
+            <div class="feedback__text">
+                Отправьте заявку, мы&nbsp;вас проконсультируем
+            </div>
+        </div>
+        <div class="feedback__inputs">
+            <input
+                    class="feedback__field"
+                    type="text"
+                    name="name"
+                    placeholder="Имя"
+                    required>
+            <input
+                    id="phone"
+                    class="feedback__field"
+                    type="tel"
+                    name="phone"
+                    placeholder="Телефон"
+                    required>
+            <input
+                    class="feedback__field"
+                    type="email"
+                    name="email"
+                    placeholder="Почта"
+                    required>
+            <textarea
+                    class="feedback__field"
+                    name="comment"
+                    placeholder="Комментарий"></textarea>
+        </div>
+        <div class="feedback__buttons">
+            <button
+                    class="feedback__action feedback__action_submit"
+                    data-type="message">Отправить
+            </button>
+        </div>
+        <div class="feedback__politics">
+            Нажимая “Отправить”, вы даете согласие на&nbsp;обработку персональных данных
+            в&nbsp;соответствии с&nbsp;<a href="/confidential" target="_blank" class="feedback__link">
+            политикой конфиденциальности</a> и&nbsp;принимаете условия
+            <a href="/terms" target="_blank" class="feedback__link">пользовательского соглашения</a>.
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const overlay = document.querySelector(".pop-up__overlay");
+            const closeBtn = document.querySelector(".pop-up__button_close");
+
+            document.addEventListener("click", (e) => {
+                console.log(e.target);
+            });
+
+            if (typeof popUp === "undefined") {
+                var popUp = [];
+            }
+            popUp = document.querySelectorAll(".pop-up");
+
+            function popOpen(customId) {
+                let siteBody = document.querySelector("body");
+                siteBody.classList.add("stop-scroll");
+
+                for (let i = 0; i < popUp.length; i++) {
+                    if (popUp[i].id == customId) {
+                        popUp[i].classList.add("pop-up_active");
+                    }
+                }
+            }
+
+            function popClose() {
+                let siteBody = document.querySelector("body");
+                siteBody.classList.remove("stop-scroll");
+                for (let i = 0; i < popUp.length; i++) popUp[i].classList.remove("pop-up_active");
+            }
+
+            let galleryPopUp = document.getElementById("gallery__pop-up"),
+                galleryPopUpPrev = galleryPopUp.querySelector(".pop-up__button_prev"),
+                galleryPopUpNext = galleryPopUp.querySelector(".pop-up__button_next"),
+                galleryPopUpContent = galleryPopUp.querySelector(".pop-up__content img");
+
+            const galleryList = document.querySelectorAll(".repository");
+
+            galleryList.forEach((list) => {
+                list.addEventListener("click", (e) => {
+                    let galleryImage = list.querySelectorAll(".repository__image");
+                    let galleryImageCurrent = 0;
+
+                    function showImage() {
+                        galleryPopUpContent.setAttribute(
+                            "src",
+                            galleryImage[galleryImageCurrent].querySelector("img").getAttribute("src")
+                        );
+                    }
+
+                    let array = [];
+                    for (let i = 0; i < galleryImage.length; i++) {
+                        array.push(galleryImage[i]);
+                        console.log(array);
+                    }
+
+                    if (e.target.classList.contains("repository__image")) {
+                        galleryImageCurrent = array.indexOf(e.target);
+
+                        console.log(galleryImageCurrent);
+                        showImage();
+                        popOpen("gallery__pop-up");
+                    }
+
+                    galleryPopUpPrev.addEventListener("click", function () {
+                        if (galleryImageCurrent == 0) {
+                            galleryImageCurrent = galleryImage.length - 1;
+                        } else {
+                            galleryImageCurrent = (galleryImageCurrent - 1) % galleryImage.length;
+                        }
+                        showImage();
+                    });
+
+                    galleryPopUpNext.addEventListener("click", function () {
+                        galleryImageCurrent = (galleryImageCurrent + 1) % galleryImage.length;
+                        showImage();
+                    });
+                });
+            });
+
+            overlay.addEventListener("click", () => {
+                popClose();
+            });
+
+            closeBtn.addEventListener("click", () => {
+                popClose();
+            });
+        });
+    </script>
+</div>
+
+<footer class="footer-wrapper" itemscope itemtype="http://schema.org/LocalBusiness">
+    <div class="footer">
+        <div class="footer__logo">
+            <a class="footer__logo-link" href="/" title="На главную">
+                <img alt="" itemprop="logo" src="/img/logo.png">
+            </a>
+        </div>
+        <div class="footer__catalog-list">
+            <p class="footer__cnt-bold">Покупателям</p>
+            <ul class="footer__ul">
+                <li><a class="footer__cnt" href="/about">О&nbsp;компании</a></li>
+                <li><a class="footer__cnt" href="/catalog">Каталог</a></li>
+                <li><a class="footer__cnt" href="/delivery">Доставка и&nbsp;оплата</a></li>
+                <li><a class="footer__cnt" href="/contacts">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer__catalog-list">
+            <p class="footer__cnt-bold">Каталог</p>
+            <ul class="footer__ul">
+                <li>
+                    <a class="footer__cnt" href="/catalog/k-8529183">
+                        Товарная группа 1
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__cnt" href="/catalog/k-4372643">
+                        Товарная группа 2
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__cnt" href="/catalog/k-8529350">
+                        Товарная группа 3
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__cnt" href="/catalog/k-7267859">
+                        Товарная группа 4
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__contact-block">
+            <p class="footer__cnt-bold">Контакты</p>
+            <div class="footer__ul">
+                <a href="tel:+79201234567" itemprop="telephone"
+                   class="footer__contact footer__phone"
+                >+7 (920) 123-45-67</a>
+
+                <a href="mailto:mail111@gmail.com" itemprop="email" target=”_blank”
+                   class="footer__contact footer__mail">mail111@gmail.com</a>
+
+                <div class="footer__contact footer__address"
+                     itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+                    <span itemprop="addressLocality">Екатеринбург</span>
+                </div>
+
+                <div class="footer__contact footer__time" itemprop="openingHours"
+                     content="Mo,Tu,We,Th,Fr 09:00-18:00">
+                    пн-пт 9:00 - 18:00
+                </div>
+
+                <div class="social-wrapper">
+                    <div class="social" data-phone="79201234567"
+                         data-text="Здравствуйте! Нашли ваше предложение на сайте " data-url="true"
+                         onclick="whatsapp(this);"
+                         title="WhatsApp">
+                        <img src="/img/whatsapp.png">
+                    </div>
+
+                    <div onclick='window.open("https://t.me/","_blank")'
+                         class="social">
+                        <img src="/img/telegram.png">
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <div class="button button__callback"
+                         data-type="callback">
+                        Заказать звонок
+                    </div>
+                    <div class="button button__message"
+                         data-type="message">
+                        Оставить заявку
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <meta itemprop="name" content="">
+</footer>
+<footer class="m-footer" itemscope itemtype="http://schema.org/LocalBusiness">
+    <div class="m-footer__wrapper">
+        <div class="m-footer__logo-box">
+            <div class="m-footer__burger"></div>
+            <a href="/" class="m-footer__logo">
+                <img alt="" class="m-footer__img" itemprop="logo"
+                     src="/img/logo.png">
+            </a>
+        </div>
+        <div class="m-header__social">
+            <div onclick='window.open("https://t.me/","_blank")'
+                 class="m-header__telegram">
+                &nbsp;
+            </div>
+            <div class="m-header__whatsapp" data-phone="79201234567"
+                 data-text="Здравствуйте. Нашли ваше предложение на сайте: " data-url="true"
+                 onclick="whatsapp(this);"
+                 title="WhatsApp">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+    <div class="m-footer__slogan">
+        Производство и&nbsp;оптовая продажа металлоконструкций
+    </div>
+    <div class="m-footer__contacts">
+        <a class="m-footer__contact m-footer__phone" itemprop="telephone"
+           href="tel:tel:+79201234567" rel="noopener nofollow">
+            +7 (920) 123-45-67
+        </a>
+        <a class="m-footer__contact m-footer__email" itemprop="email"
+           href="mailto:mail111@gmail.com" target="_blank" rel="noopener nofollow">
+            mail111@gmail.com
+        </a>
+    </div>
+    <div class="m-footer__callback" data-type="callback">
+        Заказать звонок
+    </div>
+    <div class="m-footer__menu">
+        <a href="/catalog" class="m-footer__menu-item">
+            Каталог
+        </a>
+        <a href="/about" class="m-footer__menu-item">
+            О&nbsp;компании
+        </a>
+        <a href="/delivery" class="m-footer__menu-item">
+            Доставка и&nbsp;оплата
+        </a>
+        <a href="/reviews" class="m-footer__menu-item">
+            Отзывы
+        </a>
+        <a href="/contacts" class="m-footer__menu-item">
+            Контакты
+        </a>
+    </div>
+    <meta itemprop="name" content="">
+</footer>
+
+</body>
+</html>
